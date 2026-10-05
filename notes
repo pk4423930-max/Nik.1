@@ -1,0 +1,52 @@
+// time complexity = quntifies the amount of time an algorithm takes to run as the fuction of the length of its input.
+//shallow compare(==) // compares memory adress.
+//deepcompare (.equals()) actual value.
+//time complexity is also known as big (O)notation.
+// constant time complexity.
+//arr = [3,5,7,9].
+//s.o.p(arr[3]) ex accessing array element.
+//linear time complexity = time is dependent on no of iterations//square of n //for one loop.
+//quadratic time complexity = iterations is dependent on single row and multiple column//square of n//for two loops.
+//factorial time complexity = time is dependent on n!//permutation.
+//exponential time complexity = time is dependent on 2 raise to n.
+//logarithmic time complexity = time is dependenrt on O(log n)// iterations will be drastically reduced//sorting algorithms.     
+//space complexity = the total amount of memory space an algorithm requires to run to completion relative to the size of its input.
+//call by value(primitive) = actual value is copied made a duplicate and sent.
+//new memory will be created same copy(multiple copies ar there).
+//call by reference(non primitive) = it will send memory adress or reference  only not actual data.
+//only one copy is there.(memory constraint)
+//Scope
+//collection of methods and variables = class.
+//instance of class = object.
+//encapsulation is binding of methods and variables.
+//getters and setters.
+//Inheritance in Java is a core Object-Oriented Programming (OOP) mechanism that allows one class to acquire the properties (fields) and behaviors (methods) of another class.
+// It models a real-world IS-A relationship (e.g., a Dog IS-A Animal, a Car IS-A Vehicle).
+//in java we do not have multiple inheritence because 
+//Java does not support multiple inheritance of classes to maintain simplicity and avoid the structural ambiguities that bring more complexity than benefit to a language.
+//The diamond problem is an ambiguity that occurs in object-oriented programming when a class inherits 
+from two parent classes that share a common grandparent class, forming a diamond-shaped inheritance
+// in Java is a core Object-Oriented Programming (OOP) concept that translates to "many forms". 
+It allows a single entity (such as a method, operator, or object) to behave differently depending on the context or the object executing it.
+//interfaces are blueprints with abstract methods.
+//The extends keyword is used to inherit fields and methods from a parent class or another interface, 
+//while the implements keyword is used by a class to sign a contract and provide code for all abstract methods inside an interface
+//exception handling try catch and finally
+//Abstraction is the process of hiding complex internal details and showing only the essential features of a concept or system
+//can be achieved using abstract method  and interface
+//logic is code
+//polymorphism is using methods and classes in multiple orms
+//overloading
+//array - fixed length
+//arraylists - dynamic length
+//to create array list <datatype> namelist = new arraylist <datatype>()
+//access directly or we can use for loop.we can use dot operator.
+/linked list are having list which are linked together 
+//adding a limked list elements are represented as nodes which are having adress previous and next.using pointer
+//removing = same using pointer
+//in array only best case is there //adding requires  lot of time every element should be shifted below worst case is addinf 1st element o(n)
+//remove same way
+//lookup check if data is present it is going to take 0(n) time complexity//hash map 
+//linked list ,hash map,set,stack,que(collection framework) and many
+// queue follow fifo
+//stack follow lifo
